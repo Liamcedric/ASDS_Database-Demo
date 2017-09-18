@@ -1,0 +1,38 @@
+3/10/2017 9:23:03 AM  Responder 5 Compilation Errors and Warnings - Start:
+     Facility Name: College Park Endoscopy     Software Version: T15.1  Version 2.44
+ 
+Errors: 0  Warnings: 31  Suppressed Warnings: 0
+
+W0125  BRC has blank or invalid MAC Address for ZAddr: 1.
+W1509 Console has blank or invalid MAC Address. Area:Endo Room: Nurse Station.
+W0412 No audio station on first named bed.  Area: Endo  Room: OR Rm 1 Bed: 1.
+W0412 No audio station on first named bed.  Area: Endo  Room: Procd Rm 1 Bed: 1.
+W2110 Bed is not assigned to a unit. Area:Endo Room Administrator Bed 100.
+W2110 Bed is not assigned to a unit. Area:Endo Room Rec Rm 6 Bed 1.
+W2110 Bed is not assigned to a unit. Area:Endo Room Pt Toilet 1 Bed 100.
+W2110 Bed is not assigned to a unit. Area:Endo Room Rec Rm 5 Bed 1.
+W2110 Bed is not assigned to a unit. Area:Endo Room Soiled Utility Bed 100.
+W2110 Bed is not assigned to a unit. Area:Endo Room Pre Op 2 Bed 1.
+W2110 Bed is not assigned to a unit. Area:Endo Room Pre Op Nurse Station Bed 100.
+W2110 Bed is not assigned to a unit. Area:Endo Room Pre Op 1 Bed 1.
+W2110 Bed is not assigned to a unit. Area:Endo Room Rec Rm 4 Bed 1.
+W2110 Bed is not assigned to a unit. Area:Endo Room Rec Rm 3 Bed 1.
+W2110 Bed is not assigned to a unit. Area:Endo Room Rec Rm 2 Bed 1.
+W2110 Bed is not assigned to a unit. Area:Endo Room Rec Rm 1 Bed 1.
+W2110 Bed is not assigned to a unit. Area:Endo Room Clean Utility Bed 100.
+W2110 Bed is not assigned to a unit. Area:Endo Room Pt Toilet 2 Bed 100.
+W2110 Bed is not assigned to a unit. Area:Endo Room Nurse Manager Bed 100.
+W2110 Bed is not assigned to a unit. Area:Endo Room Consult Bed 100.
+W2110 Bed is not assigned to a unit. Area:Endo Room Fem Lockers Bed 100.
+W2110 Bed is not assigned to a unit. Area:Endo Room Male Lockers Bed 100.
+W2110 Bed is not assigned to a unit. Area:Endo Room Staff Lounge Bed 100.
+W2110 Bed is not assigned to a unit. Area:Endo Room Sp Proc Bed 100.
+W2110 Bed is not assigned to a unit. Area:Endo Room General Storage Bed 100.
+W2110 Bed is not assigned to a unit. Area:Endo Room Soiled Workroom Bed 100.
+W2110 Bed is not assigned to a unit. Area:Endo Room Clean Workroom Bed 100.
+W2110 Bed is not assigned to a unit. Area:Endo Room Scope Storage Bed 100.
+W2110 Bed is not assigned to a unit. Area:Endo Room Equip Storage Bed 100.
+W2110 Bed is not assigned to a unit. Area:Endo Room OR Rm 1 Bed 1.
+W2110 Bed is not assigned to a unit. Area:Endo Room Procd Rm 1 Bed 1.
+ 
+3/10/2017 9:23:03 AM  Errors and Warnings - END

@@ -1,0 +1,302 @@
+
+<Session xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<DXMLCfg Annunciators="0">
+<CfgSignature PkgVerMajor="2" PkgVerMinor="44" Revision="163348470" FormatVersion="1" Sitename="College Park Endoscopy" BuildTimestamp="2017-03-10T14:23:02.00000-05:00"/>
+<Misc AreaCount="1" RoomCount="28" BedCount="27" ConCount="1" SwingCount="0" DupleCount="0" RadioSetCount="0" ZoneCount="2" ZoneItemCount="2" EscalationCount="34"/>
+<LCfgMisc BiclCount="27" BiclItemCount="0" LZoneCount="0" LSingleCovCount="0" LAnnuncInfoCount="0" LMacroCount="0" LRadioSetCount="0"/>
+<Sysparam Language="0" zDongleMAC="0" zDongle="1" PrioBedUpgrade="1200" PrioRoomInPriv="1200" PrioCallCanceled="1003" PrioMinToArchiveConCov="1100" FeatureKey="" VoIPDialPrefix="" PPageTransmitter="0" BackupRGS="0" AudioTimeoutHigh="24" AudioTimeoutLow="6" AudioTimeoutThreshold="1400" ShowPPageAreas="0" RGSHoursDiffFromBRCs="0" TCP_Portnum="5003" RIM_Portnum="5003" NurseCallPCCCancelThreshold="0" StatusPCCCancelThreshold="0" /> 
+<Areas ix="1" Name="Endo" AreaDial="100" PPageCancel="0" MinPrioForCancel="1020" MaxPrioForCancel="1600" />
+<Rooms RoomIx="1" AreaIx="1" Zaddr="1" Name="Nurse Station" RoomDialIx="21" LAnnuncIx="1" CancelPolicy="B" />
+<Rooms RoomIx="2" AreaIx="1" Zaddr="1" Name="Administrator" RoomDialIx="1" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="3" AreaIx="1" Zaddr="1" Name="Rec Rm 6" RoomDialIx="2" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="4" AreaIx="1" Zaddr="1" Name="Pt Toilet 1" RoomDialIx="22" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="5" AreaIx="1" Zaddr="1" Name="Rec Rm 5" RoomDialIx="3" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="6" AreaIx="1" Zaddr="1" Name="Soiled Utility" RoomDialIx="23" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="7" AreaIx="1" Zaddr="1" Name="Pre Op 2" RoomDialIx="4" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="8" AreaIx="1" Zaddr="1" Name="Pre Op Nurse Station" RoomDialIx="24" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="9" AreaIx="1" Zaddr="1" Name="Pre Op 1" RoomDialIx="5" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="10" AreaIx="1" Zaddr="1" Name="Rec Rm 4" RoomDialIx="6" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="11" AreaIx="1" Zaddr="1" Name="Rec Rm 3" RoomDialIx="7" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="12" AreaIx="1" Zaddr="1" Name="Rec Rm 2" RoomDialIx="8" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="13" AreaIx="1" Zaddr="1" Name="Rec Rm 1" RoomDialIx="9" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="14" AreaIx="1" Zaddr="1" Name="Clean Utility" RoomDialIx="10" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="15" AreaIx="1" Zaddr="1" Name="Pt Toilet 2" RoomDialIx="11" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="16" AreaIx="1" Zaddr="1" Name="Nurse Manager" RoomDialIx="12" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="17" AreaIx="1" Zaddr="1" Name="Consult" RoomDialIx="25" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="18" AreaIx="1" Zaddr="1" Name="Fem Lockers" RoomDialIx="26" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="19" AreaIx="1" Zaddr="1" Name="Male Lockers" RoomDialIx="27" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="20" AreaIx="1" Zaddr="1" Name="Staff Lounge" RoomDialIx="13" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="21" AreaIx="1" Zaddr="1" Name="Sp Proc" RoomDialIx="28" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="22" AreaIx="1" Zaddr="1" Name="General Storage" RoomDialIx="14" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="23" AreaIx="1" Zaddr="1" Name="Soiled Workroom" RoomDialIx="15" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="24" AreaIx="1" Zaddr="1" Name="Clean Workroom" RoomDialIx="16" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="25" AreaIx="1" Zaddr="1" Name="Scope Storage" RoomDialIx="17" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="26" AreaIx="1" Zaddr="1" Name="Equip Storage" RoomDialIx="18" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="27" AreaIx="1" Zaddr="1" Name="OR Rm 1" RoomDialIx="19" LAnnuncIx="0" CancelPolicy="R" />
+<Rooms RoomIx="28" AreaIx="1" Zaddr="1" Name="Procd Rm 1" RoomDialIx="20" LAnnuncIx="0" CancelPolicy="R" />
+<RoomDial RoomIx="2" RoomNum="110"/>
+<RoomDial RoomIx="3" RoomNum="111"/>
+<RoomDial RoomIx="5" RoomNum="112"/>
+<RoomDial RoomIx="7" RoomNum="113"/>
+<RoomDial RoomIx="9" RoomNum="114"/>
+<RoomDial RoomIx="10" RoomNum="115"/>
+<RoomDial RoomIx="11" RoomNum="116"/>
+<RoomDial RoomIx="12" RoomNum="117"/>
+<RoomDial RoomIx="13" RoomNum="118"/>
+<RoomDial RoomIx="14" RoomNum="120"/>
+<RoomDial RoomIx="15" RoomNum="121"/>
+<RoomDial RoomIx="16" RoomNum="125"/>
+<RoomDial RoomIx="20" RoomNum="129"/>
+<RoomDial RoomIx="22" RoomNum="130"/>
+<RoomDial RoomIx="23" RoomNum="132"/>
+<RoomDial RoomIx="24" RoomNum="133"/>
+<RoomDial RoomIx="25" RoomNum="134"/>
+<RoomDial RoomIx="26" RoomNum="135"/>
+<RoomDial RoomIx="27" RoomNum="140"/>
+<RoomDial RoomIx="28" RoomNum="141"/>
+<RoomDial RoomIx="1" RoomNum="1001"/>
+<RoomDial RoomIx="4" RoomNum="1111"/>
+<RoomDial RoomIx="6" RoomNum="1121"/>
+<RoomDial RoomIx="8" RoomNum="1131"/>
+<RoomDial RoomIx="17" RoomNum="1251"/>
+<RoomDial RoomIx="18" RoomNum="1271"/>
+<RoomDial RoomIx="19" RoomNum="1272"/>
+<RoomDial RoomIx="21" RoomNum="1291"/>
+<Beds ix="1" RoomIx="2" Name="100" StaffRegLevel="0" HasAudio="1" ReportBedIx="1"/>
+<Beds ix="2" RoomIx="3" Name="1" StaffRegLevel="0" HasAudio="1" ReportBedIx="2"/>
+<Beds ix="3" RoomIx="4" Name="100" StaffRegLevel="0" HasAudio="1" ReportBedIx="3"/>
+<Beds ix="4" RoomIx="5" Name="1" StaffRegLevel="0" HasAudio="1" ReportBedIx="4"/>
+<Beds ix="5" RoomIx="6" Name="100" StaffRegLevel="0" HasAudio="1" ReportBedIx="5"/>
+<Beds ix="6" RoomIx="7" Name="1" StaffRegLevel="0" HasAudio="1" ReportBedIx="6"/>
+<Beds ix="7" RoomIx="8" Name="100" StaffRegLevel="0" HasAudio="1" ReportBedIx="7"/>
+<Beds ix="8" RoomIx="9" Name="1" StaffRegLevel="0" HasAudio="1" ReportBedIx="8"/>
+<Beds ix="9" RoomIx="10" Name="1" StaffRegLevel="0" HasAudio="1" ReportBedIx="9"/>
+<Beds ix="10" RoomIx="11" Name="1" StaffRegLevel="0" HasAudio="1" ReportBedIx="10"/>
+<Beds ix="11" RoomIx="12" Name="1" StaffRegLevel="0" HasAudio="1" ReportBedIx="11"/>
+<Beds ix="12" RoomIx="13" Name="1" StaffRegLevel="0" HasAudio="1" ReportBedIx="12"/>
+<Beds ix="13" RoomIx="14" Name="100" StaffRegLevel="0" HasAudio="1" ReportBedIx="13"/>
+<Beds ix="14" RoomIx="15" Name="100" StaffRegLevel="0" HasAudio="1" ReportBedIx="14"/>
+<Beds ix="15" RoomIx="16" Name="100" StaffRegLevel="0" HasAudio="1" ReportBedIx="15"/>
+<Beds ix="16" RoomIx="17" Name="100" StaffRegLevel="0" HasAudio="1" ReportBedIx="16"/>
+<Beds ix="17" RoomIx="18" Name="100" StaffRegLevel="0" HasAudio="1" ReportBedIx="17"/>
+<Beds ix="18" RoomIx="19" Name="100" StaffRegLevel="0" HasAudio="1" ReportBedIx="18"/>
+<Beds ix="19" RoomIx="20" Name="100" StaffRegLevel="0" HasAudio="1" ReportBedIx="19"/>
+<Beds ix="20" RoomIx="21" Name="100" StaffRegLevel="0" HasAudio="0" ReportBedIx="20"/>
+<Beds ix="21" RoomIx="22" Name="100" StaffRegLevel="0" HasAudio="1" ReportBedIx="21"/>
+<Beds ix="22" RoomIx="23" Name="100" StaffRegLevel="0" HasAudio="1" ReportBedIx="22"/>
+<Beds ix="23" RoomIx="24" Name="100" StaffRegLevel="0" HasAudio="1" ReportBedIx="23"/>
+<Beds ix="24" RoomIx="25" Name="100" StaffRegLevel="0" HasAudio="1" ReportBedIx="24"/>
+<Beds ix="25" RoomIx="26" Name="100" StaffRegLevel="0" HasAudio="1" ReportBedIx="25"/>
+<Beds ix="26" RoomIx="27" Name="1" StaffRegLevel="0" HasAudio="0" ReportBedIx="26"/>
+<Beds ix="27" RoomIx="28" Name="1" StaffRegLevel="0" HasAudio="0" ReportBedIx="27"/>
+<TonePalate>
+<ToneLines>
+<TonePalate_ITEM Ix="1" ToneID="01"/>
+<TonePalate_ITEM Ix="2" ToneID="02"/>
+<TonePalate_ITEM Ix="3" ToneID="03"/>
+<TonePalate_ITEM Ix="4" ToneID="04"/>
+<TonePalate_ITEM Ix="5" ToneID="05"/>
+<TonePalate_ITEM Ix="6" ToneID="06"/>
+<TonePalate_ITEM Ix="7" ToneID="07"/>
+<TonePalate_ITEM Ix="8" ToneID="08"/>
+<TonePalate_ITEM Ix="9" ToneID="09"/>
+<TonePalate_ITEM Ix="10" ToneID="10"/>
+<TonePalate_ITEM Ix="11" ToneID="05"/>
+<TonePalate_ITEM Ix="12" ToneID="14"/>
+</ToneLines>
+</TonePalate>
+<Escalation Ix="1" Name="Transport" CallStop="0" Priority="1020" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="1" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="2" Timeout_Sec="1800"/>
+<Escalation Ix="2" Name="Transport" CallStop="1" Priority="1030" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="2" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="2" Timeout_Sec="1800"/>
+<Escalation Ix="3" Name="Cleaning Needed" CallStop="0" Priority="1021" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="0" AllTouchEscIx="3" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="4" Timeout_Sec="600"/>
+<Escalation Ix="4" Name="Cleaning Needed" CallStop="1" Priority="1031" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="0" AllTouchEscIx="4" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="4" Timeout_Sec="0"/>
+<Escalation Ix="5" Name="Patient" CallStop="0" Priority="1200" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="5" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="6" Timeout_Sec="180"/>
+<Escalation Ix="6" Name="Patient" CallStop="1" Priority="1300" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="6" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="6" Timeout_Sec="0"/>
+<Escalation Ix="7" Name="Attention" CallStop="0" Priority="1400" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="7" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="8" Timeout_Sec="60"/>
+<Escalation Ix="8" Name="Attention" CallStop="1" Priority="1420" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="8" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="8" Timeout_Sec="0"/>
+<Escalation Ix="9" Name="Urgent" CallStop="0" Priority="1500" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="0" AllTouchEscIx="9" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="10" Timeout_Sec="60"/>
+<Escalation Ix="10" Name="Urgent" CallStop="1" Priority="1520" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="0" AllTouchEscIx="10" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="10" Timeout_Sec="0"/>
+<Escalation Ix="11" Name="Bath" CallStop="0" Priority="1501" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="11" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="12" Timeout_Sec="30"/>
+<Escalation Ix="12" Name="Bath" CallStop="1" Priority="1700" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="12" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="12" Timeout_Sec="0"/>
+<Escalation Ix="13" Name="Staff Assist" CallStop="0" Priority="1600" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="0" AllTouchEscIx="13" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="14" Timeout_Sec="60"/>
+<Escalation Ix="14" Name="Staff Assist" CallStop="1" Priority="1720" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="0" AllTouchEscIx="14" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="14" Timeout_Sec="0"/>
+<Escalation Ix="15" Name="Code Blue" CallStop="0" Priority="1950" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="0" AllTouchEscIx="15" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="15" Timeout_Sec="0"/>
+<Escalation Ix="16" Name="In Pain" CallStop="0" Priority="1410" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="16" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="16" Timeout_Sec="60"/>
+<Escalation Ix="17" Name="Cord Out" CallStop="0" Priority="1201" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="0" AllTouchEscIx="17" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="18" Timeout_Sec="300"/>
+<Escalation Ix="18" Name="Cord Out" CallStop="1" Priority="1301" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="18" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="18" Timeout_Sec="0"/>
+<Escalation Ix="19" Name="Water" CallStop="0" Priority="1250" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="19" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="19" Timeout_Sec="120"/>
+<Escalation Ix="20" Name="Plug Out" CallStop="0" Priority="1205" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="0" AllTouchEscIx="20" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="21" Timeout_Sec="300"/>
+<Escalation Ix="21" Name="Plug Out" CallStop="1" Priority="1305" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="0" AllTouchEscIx="21" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="21" Timeout_Sec="0"/>
+<Escalation Ix="22" Name="Bed Exit" CallStop="0" Priority="1550" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="22" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="22" Timeout_Sec="120"/>
+<Escalation Ix="23" Name="Need Toilet" CallStop="0" Priority="1405" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="23" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="23" Timeout_Sec="60"/>
+<Escalation Ix="24" Name="Cleaning In Progress" CallStop="0" Priority="1022" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="24" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="24" Timeout_Sec="600"/>
+<Escalation Ix="25" Name="Bed Ready" CallStop="0" Priority="1023" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="25" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="25" Timeout_Sec="600"/>
+<Escalation Ix="26" Name="Staff" CallStop="0" Priority="1100" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="26" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="26" Timeout_Sec="60"/>
+<Escalation Ix="27" Name="Duty" CallStop="0" Priority="1101" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="27" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="27" Timeout_Sec="120"/>
+<Escalation Ix="28" Name="Bed Out" CallStop="0" Priority="1202" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="28" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="28" Timeout_Sec="60"/>
+<Escalation Ix="29" Name="Console Ringing" CallStop="0" Priority="1050" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="0" AllTouchEscIx="29" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="29" Timeout_Sec="600"/>
+<Escalation Ix="30" Name="Supervision Failure" CallStop="0" Priority="1210" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="0" AllTouchEscIx="30" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="30" Timeout_Sec="60"/>
+<Escalation Ix="31" Name="Bath Assist" CallStop="0" Priority="1406" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="0" AllTouchEscIx="31" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="32" Timeout_Sec="180"/>
+<Escalation Ix="32" Name="Bath Assist" CallStop="1" Priority="1525" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="32" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="32" Timeout_Sec="0"/>
+<Escalation Ix="33" Name="Bath Emergency" CallStop="0" Priority="1502" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="0" AllTouchEscIx="33" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="34" Timeout_Sec="180"/>
+<Escalation Ix="34" Name="Bath Emergency" CallStop="1" Priority="1701" SuppressStaffCovEval="0" StartReporting="1" CancelUponAnswer="1" AllTouchEscIx="34" OnDecline="None" GoBackToStop="0" GoBackDelay="0" Timeout_Ix="34" Timeout_Sec="0"/>
+<LSwingUserTable>
+</LSwingUserTable>
+<BRC ZAddr="0" Kind="RGS" >
+<CONSOLEs>
+</CONSOLEs>
+<PANELs>
+</PANELs>
+</BRC>
+<BRC ZAddr="1" Kind="BRC" >
+<CLs>
+<CL_ITEM PAddr="1" RoomIx="2" CLModelID="11" CLDesription="0 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="4" BedIx="1" ModelID="53" StationKind="Duty" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="2" RoomIx="3" CLModelID="18" CLDesription="4 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="2" BedIx="2" ModelID="33" StationKind="Bed1P" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="3" RoomIx="4" CLModelID="18" CLDesription="4 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="6" BedIx="3" ModelID="41" StationKind="PCA" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="4" RoomIx="6" CLModelID="11" CLDesription="0 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="4" BedIx="5" ModelID="53" StationKind="Duty" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="5" RoomIx="5" CLModelID="18" CLDesription="4 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="2" BedIx="4" ModelID="33" StationKind="Bed1P" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="6" RoomIx="7" CLModelID="18" CLDesription="4 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="2" BedIx="6" ModelID="33" StationKind="Bed1P" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="7" RoomIx="8" CLModelID="11" CLDesription="0 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="4" BedIx="7" ModelID="53" StationKind="Duty" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="8" RoomIx="9" CLModelID="18" CLDesription="4 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="2" BedIx="8" ModelID="33" StationKind="Bed1P" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="9" RoomIx="10" CLModelID="18" CLDesription="4 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="2" BedIx="9" ModelID="33" StationKind="Bed1P" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="10" RoomIx="14" CLModelID="11" CLDesription="0 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="4" BedIx="13" ModelID="53" StationKind="Duty" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="11" RoomIx="15" CLModelID="18" CLDesription="4 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="6" BedIx="14" ModelID="41" StationKind="PCA" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="12" RoomIx="11" CLModelID="18" CLDesription="4 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="2" BedIx="10" ModelID="33" StationKind="Bed1P" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="25" RoomIx="12" CLModelID="18" CLDesription="4 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="2" BedIx="11" ModelID="33" StationKind="Bed1P" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="26" RoomIx="13" CLModelID="18" CLDesription="4 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="2" BedIx="12" ModelID="33" StationKind="Bed1P" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="27" RoomIx="20" CLModelID="11" CLDesription="0 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="4" BedIx="19" ModelID="53" StationKind="Duty" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="28" RoomIx="22" CLModelID="11" CLDesription="0 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="4" BedIx="21" ModelID="53" StationKind="Duty" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="29" RoomIx="26" CLModelID="11" CLDesription="0 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="4" BedIx="25" ModelID="53" StationKind="Duty" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="30" RoomIx="27" CLModelID="18" CLDesription="4 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="12" BedIx="26" ModelID="37" StationKind="PB2C" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="31" RoomIx="28" CLModelID="18" CLDesription="4 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="12" BedIx="27" ModelID="37" StationKind="PB2C" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="49" RoomIx="16" CLModelID="11" CLDesription="0 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="4" BedIx="15" ModelID="53" StationKind="Duty" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="50" RoomIx="17" CLModelID="11" CLDesription="0 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="4" BedIx="16" ModelID="53" StationKind="Duty" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="51" RoomIx="21" CLModelID="18" CLDesription="4 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="12" BedIx="20" ModelID="37" StationKind="PB2C" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="52" RoomIx="19" CLModelID="11" CLDesription="0 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="4" BedIx="18" ModelID="53" StationKind="Duty" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="53" RoomIx="18" CLModelID="11" CLDesription="0 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="4" BedIx="17" ModelID="53" StationKind="Duty" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="54" RoomIx="23" CLModelID="11" CLDesription="0 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="4" BedIx="22" ModelID="53" StationKind="Duty" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="55" RoomIx="25" CLModelID="11" CLDesription="0 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="4" BedIx="24" ModelID="53" StationKind="Duty" />
+</STATIONS>
+</CL_ITEM>
+<CL_ITEM PAddr="56" RoomIx="24" CLModelID="11" CLDesription="0 LED - 1 Audio Channel">
+<STATIONS>
+<Station MAddr="4" BedIx="23" ModelID="53" StationKind="Duty" />
+</STATIONS>
+</CL_ITEM>
+</CLs>
+<CONSOLEs>
+<CONSOLE_ITEM ConIx="1" PAddr="97" RoomIx="1" PanelIx="1" CLModelID="15">
+<Tags>
+</Tags>
+</CONSOLE_ITEM>
+</CONSOLEs>
+<PANELs>
+</PANELs>
+</BRC>
+<ZToIP ZAdr="0" IP="" MaskBits="24" NetMask="255.255.255.0" Port="5003" DefRouter="" Kind="RGS" />
+<ZToIP ZAdr="1" IP="192.168.1.10" MaskBits="24" NetMask="255.255.255.0" Port="5003" DefRouter="192.168.1.1" Kind="BRC" />
+<ZPToIP ZAdr="1" PAdr="97" IP="192.168.1.21" />
+</DXMLCfg>
+</Session>

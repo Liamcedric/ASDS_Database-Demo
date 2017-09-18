@@ -1,0 +1,20 @@
+3/10/2017 9:23:01 AM  Responder 5 system Update (firmware/configuration) - COMPILE_QUICK - Start.
+  Facility Name: College Park Endoscopy
+ 
+  Software Version:
+    T15.1  Version 2.44  Configurator(GUI/OI) Build: 59  8/1/2016
+  Configuration File: 
+    C:\Users\jenglish\Desktop\College Park Endoscopy\College Park Endoscopy.R5C
+  Install Directory: 
+    C:\Program Files (x86)\Rauland-Borg\HC\R5\v2_44
+  OS: 
+    Microsoft Windows NT 6.2.9200.0 (Win8+ or Server2012+)
+    Running in 32bit mode on 64bit OS.
+  No active Ethernet connections detected.
+  Update is after: End of initial device status.
+ 
+3/10/2017 9:23:01 AM  Start configuration compile (initial).
+3/10/2017 9:23:03 AM  Show configuration compile output.  Errors: 0   Warnings: 31
+3/10/2017 9:23:42 AM  Zero suppressed / hidden warnings.
+3/10/2017 9:23:42 AM  Done configuration compile.
+3/10/2017 9:23:42 AM  Compile (initial) done.
